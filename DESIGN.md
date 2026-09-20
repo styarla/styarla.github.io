@@ -1,6 +1,6 @@
-# 🎨 Design System & Architecture Guidelines — `research.log`
+# 🎨 Design System & Architecture Guidelines — `shrina.ux`
 
-Welcome to the design system and architecture documentation for **`research.log`** — a tactile, Y2K-inspired portfolio and research log for a multi-disciplinary **UX Researcher, AI Product Strategist, and Interaction Designer**.
+Welcome to the design system and architecture documentation for **`shrina.ux`** — a tactile, Y2K-inspired portfolio and research log for a multi-disciplinary **UX Researcher, AI Product Strategist, and Interaction Designer**.
 
 ---
 
