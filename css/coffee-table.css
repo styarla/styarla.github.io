@@ -79,7 +79,7 @@
   position: relative;
   width: 100%;
   aspect-ratio: 2.3 / 1;
-  min-height: 220px;
+  max-height: 220px;
   background-image:
     repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.06) 0 2px, transparent 2px 90px),
     linear-gradient(180deg, var(--wood-highlight) 0%, var(--wood-base) 45%, var(--wood-dark) 100%);
