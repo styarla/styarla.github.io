@@ -1729,6 +1729,13 @@ body {
   margin: 0.5rem auto;
 }
 
+.screen-gallery-single {
+  display: grid;
+  width: 100%;
+  max-width: 620px;
+  margin: 0.5rem auto;
+}
+
 .screen-gallery.three-up {
   grid-template-columns: repeat(3, 1fr);
   max-width: none;
