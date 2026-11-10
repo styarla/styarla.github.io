@@ -1695,3 +1695,97 @@ body {
     width: 100%;
   }
 }
+
+/* ==========================================================================
+   11. CASE STUDY: PHONE SCREEN GALLERY + SMALL FIXES (issho.html)
+   ========================================================================== */
+
+/* "Interaction Design" pill — class is used on issho, peer-study-app and
+   dearborn-project but was never defined, so those pills had no fill.
+   Dusty pink = Interaction Design, per DESIGN.md. */
+.tag-interaction {
+  background: var(--dusty-pink);
+}
+
+/* Placeholder for media that hasn't been added yet */
+.media-note {
+  font-family: var(--font-pixel);
+  font-size: 0.85rem;
+  color: #666;
+  background: var(--bg-cream);
+  border: 2px dashed var(--text-charcoal);
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+  text-align: center;
+}
+
+/* App screenshots in a phone frame (2-up and 3-up) */
+.screen-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 620px;
+  margin: 0.5rem auto;
+}
+
+.screen-gallery.three-up {
+  grid-template-columns: repeat(3, 1fr);
+  max-width: none;
+}
+
+.screen-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.screen-frame {
+  background: #383838;
+  /* matches the dark backdrop baked into the screenshots */
+  border: 2px solid var(--text-charcoal);
+  border-radius: 12px;
+  box-shadow: 5px 5px 0px var(--dusty-pink);
+  overflow: hidden;
+}
+
+.screen-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.screen-card figcaption {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.screen-card figcaption strong {
+  display: block;
+  font-family: 'Newsreader', serif;
+  font-size: 1.2rem;
+  line-height: 1.25;
+  color: var(--text-charcoal);
+  margin-bottom: 0.2rem;
+}
+
+/* Phones: galleries become a swipeable row so the screens stay readable */
+@media (max-width: 768px) {
+
+  .screen-gallery,
+  .screen-gallery.three-up {
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: 72%;
+    max-width: none;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.25rem 0.25rem 1.25rem;
+    margin: 0 -0.25rem;
+  }
+
+  .screen-card {
+    scroll-snap-align: center;
+  }
+}
