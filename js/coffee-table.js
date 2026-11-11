@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       tag: 'studio practice',
       title: 'Weekend Painting',
       accent: 'var(--dusty-pink)',
-      text: "Most Sundays I'm elbow-deep in a half-dried palette, working through small still lifes and color studies. It's the one hobby with zero deliverables — just me, gouache, and whatever fruit hasn't gone off yet.",
+      text: "Most Sundays I'm elbow-deep in a half-dried palette, working through small still lifes and color studies. It's the one hobby with zero deliverables — just me, water color, and whatever fruit hasn't gone off yet.",
       fact: 'Current obsession: mixing the perfect "museum wall" grey-green.',
       icon: '<svg viewBox="0 0 140 110" xmlns="http://www.w3.org/2000/svg"><ellipse class="icon-white" cx="68" cy="55" rx="58" ry="38" transform="rotate(-8 68 55)" /><ellipse class="icon-wood-hole" cx="102" cy="66" rx="12" ry="9" /><circle class="icon-pink" cx="40" cy="34" r="8" /><circle class="icon-sage" cx="33" cy="60" r="8" /><circle class="icon-blue" cx="58" cy="76" r="8" /><circle class="icon-yellow" cx="82" cy="42" r="8" /><line class="icon-outline" x1="18" y1="98" x2="96" y2="14" /><circle class="icon-red" cx="99" cy="11" r="6" /></svg>'
     },
